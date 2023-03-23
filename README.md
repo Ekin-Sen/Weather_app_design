@@ -1,2 +1,2 @@
-# Weather_app_design
-weather app design with horizontal scroller
+# Weather app design
+* weather app design with horizontal scroller

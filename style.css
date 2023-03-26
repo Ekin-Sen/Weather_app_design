@@ -60,3 +60,19 @@ h3 {
     display: flex;
     margin: 20px 0px;
 }
+
+.time_details {
+    border: 1px solid;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.icon {
+    margin: 8px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

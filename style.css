@@ -55,3 +55,8 @@ h3 {
     margin-top: -30px;
     font-size: 18px;
 }
+
+.weather {
+    display: flex;
+    margin: 20px 0px;
+}

@@ -37,3 +37,21 @@ h3 {
     #e94057,
     #f27121);
 }
+
+.degree {
+    margin-top: 15px;
+    font-size: 150px;
+    text-align: center;
+}
+
+.celsius {
+    margin-top: -10px;
+    font-size: 50px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -30px;
+    font-size: 18px;
+}

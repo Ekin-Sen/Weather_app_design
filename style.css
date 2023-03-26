@@ -18,3 +18,22 @@ body {
     background: rgb(0, 0, 0);
     overflow: hidden;
 }
+
+h3 {
+    display: inline-block;
+    background: linear-gradient(#8a2387,
+    #e94057,
+    #f27121);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.name {
+    margin-left: 20px;
+}
+.name > i {
+    font-size: 20px;
+    color: linear-gradient(#8a2387,
+    #e94057,
+    #f27121);
+}

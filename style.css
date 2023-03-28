@@ -39,26 +39,26 @@ h3 {
 }
 
 .degree {
-    margin-top: 15px;
+    margin-top: 75px;
     font-size: 150px;
     text-align: center;
 }
 
 .celsius {
-    margin-top: -10px;
+    margin-top: 20px;
     font-size: 50px;
 }
 
 .details {
     display: flex;
     justify-content: space-evenly;
-    margin-top: -30px;
+    margin-top: -20px;
     font-size: 18px;
 }
 
 .weather {
     display: flex;
-    margin: 20px 0px;
+    margin: 30px 0px 20px 0px;
 }
 
 .time_details {

@@ -44,6 +44,7 @@ h3 {
 .name {
     margin-left: 20px;
 }
+
 .name > i {
     font-size: 20px;
     color: linear-gradient(#8a2387,
@@ -69,10 +70,18 @@ h3 {
     font-size: 18px;
 }
 
-.weather {
+.weather_scroller {
     display: flex;
-    margin: 30px 0px 20px 0px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 40px 10px 20px 10px;
+    gap: 10px;
 }
+
+.weather_scroller::-webkit-scrollbar {
+      display: none;
+    }
 
 .time_details {
     border: 1px solid;

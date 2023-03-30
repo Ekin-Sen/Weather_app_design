@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,10 +14,22 @@ body {
 
 .container {
     width: 400px;
-    border: 5px solid #fce570;
+    border: 5px solid;
     border-radius: 20px;
     background: rgb(0, 0, 0);
     overflow: hidden;
+}
+
+.cc_s {
+    border-color: #fce570;
+}
+
+.cc_c {
+    border-color: #a39d95;
+}
+
+.cc_w {
+    border-color: #f0f0f0;
 }
 
 h3 {
